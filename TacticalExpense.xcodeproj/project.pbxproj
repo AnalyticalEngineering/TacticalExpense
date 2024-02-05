@@ -8,12 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		12E4E6E82B6F0DF000FEAF57 /* TacticalExpenseApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12E4E6E72B6F0DF000FEAF57 /* TacticalExpenseApp.swift */; };
-		12E4E6EA2B6F0DF000FEAF57 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12E4E6E92B6F0DF000FEAF57 /* ContentView.swift */; };
+		12E4E6EA2B6F0DF000FEAF57 /* TransactionScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12E4E6E92B6F0DF000FEAF57 /* TransactionScreen.swift */; };
 		12E4E6EC2B6F0DF100FEAF57 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 12E4E6EB2B6F0DF100FEAF57 /* Assets.xcassets */; };
 		12E4E6F02B6F0DF100FEAF57 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 12E4E6EF2B6F0DF100FEAF57 /* Preview Assets.xcassets */; };
 		12E4E6FA2B6F0DF100FEAF57 /* TacticalExpenseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12E4E6F92B6F0DF100FEAF57 /* TacticalExpenseTests.swift */; };
 		12E4E7042B6F0DF100FEAF57 /* TacticalExpenseUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12E4E7032B6F0DF100FEAF57 /* TacticalExpenseUITests.swift */; };
 		12E4E7062B6F0DF100FEAF57 /* TacticalExpenseUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12E4E7052B6F0DF100FEAF57 /* TacticalExpenseUITestsLaunchTests.swift */; };
+		12E4E7652B70590500FEAF57 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12E4E7642B70590500FEAF57 /* Color.swift */; };
+		12E4E7692B7059EB00FEAF57 /* Transaction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12E4E7682B7059EB00FEAF57 /* Transaction.swift */; };
+		12E4E76B2B705C1B00FEAF57 /* Budget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12E4E76A2B705C1B00FEAF57 /* Budget.swift */; };
+		12E4E76D2B70692F00FEAF57 /* HapticsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12E4E76C2B70692F00FEAF57 /* HapticsManager.swift */; };
+		12E4E7702B70736700FEAF57 /* AddTransactionScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12E4E76F2B70736700FEAF57 /* AddTransactionScreen.swift */; };
+		12E4E7722B7074BD00FEAF57 /* TransactionListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12E4E7712B7074BD00FEAF57 /* TransactionListView.swift */; };
+		12E4E7742B70765300FEAF57 /* BudgetsStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12E4E7732B70765300FEAF57 /* BudgetsStackView.swift */; };
+		12E4E7762B707F8A00FEAF57 /* TransactionSamples.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12E4E7752B707F8A00FEAF57 /* TransactionSamples.swift */; };
+		12E4E7792B70851400FEAF57 /* PreviewContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12E4E7782B70851400FEAF57 /* PreviewContainer.swift */; };
+		12E4E77B2B70856500FEAF57 /* BudgetSamples.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12E4E77A2B70856500FEAF57 /* BudgetSamples.swift */; };
+		12E4E77D2B708B2600FEAF57 /* View+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12E4E77C2B708B2600FEAF57 /* View+Extension.swift */; };
+		12E4E77F2B708EBE00FEAF57 /* EditTransactionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12E4E77E2B708EBE00FEAF57 /* EditTransactionView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +48,7 @@
 /* Begin PBXFileReference section */
 		12E4E6E42B6F0DF000FEAF57 /* TacticalExpense.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TacticalExpense.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		12E4E6E72B6F0DF000FEAF57 /* TacticalExpenseApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TacticalExpenseApp.swift; sourceTree = "<group>"; };
-		12E4E6E92B6F0DF000FEAF57 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		12E4E6E92B6F0DF000FEAF57 /* TransactionScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionScreen.swift; sourceTree = "<group>"; };
 		12E4E6EB2B6F0DF100FEAF57 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		12E4E6ED2B6F0DF100FEAF57 /* TacticalExpense.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TacticalExpense.entitlements; sourceTree = "<group>"; };
 		12E4E6EF2B6F0DF100FEAF57 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -45,6 +57,18 @@
 		12E4E6FF2B6F0DF100FEAF57 /* TacticalExpenseUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TacticalExpenseUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		12E4E7032B6F0DF100FEAF57 /* TacticalExpenseUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TacticalExpenseUITests.swift; sourceTree = "<group>"; };
 		12E4E7052B6F0DF100FEAF57 /* TacticalExpenseUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TacticalExpenseUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		12E4E7642B70590500FEAF57 /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
+		12E4E7682B7059EB00FEAF57 /* Transaction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Transaction.swift; sourceTree = "<group>"; };
+		12E4E76A2B705C1B00FEAF57 /* Budget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Budget.swift; sourceTree = "<group>"; };
+		12E4E76C2B70692F00FEAF57 /* HapticsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HapticsManager.swift; sourceTree = "<group>"; };
+		12E4E76F2B70736700FEAF57 /* AddTransactionScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTransactionScreen.swift; sourceTree = "<group>"; };
+		12E4E7712B7074BD00FEAF57 /* TransactionListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionListView.swift; sourceTree = "<group>"; };
+		12E4E7732B70765300FEAF57 /* BudgetsStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BudgetsStackView.swift; sourceTree = "<group>"; };
+		12E4E7752B707F8A00FEAF57 /* TransactionSamples.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionSamples.swift; sourceTree = "<group>"; };
+		12E4E7782B70851400FEAF57 /* PreviewContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewContainer.swift; sourceTree = "<group>"; };
+		12E4E77A2B70856500FEAF57 /* BudgetSamples.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BudgetSamples.swift; sourceTree = "<group>"; };
+		12E4E77C2B708B2600FEAF57 /* View+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Extension.swift"; sourceTree = "<group>"; };
+		12E4E77E2B708EBE00FEAF57 /* EditTransactionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditTransactionView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,10 +119,13 @@
 		12E4E6E62B6F0DF000FEAF57 /* TacticalExpense */ = {
 			isa = PBXGroup;
 			children = (
-				12E4E6E72B6F0DF000FEAF57 /* TacticalExpenseApp.swift */,
-				12E4E6E92B6F0DF000FEAF57 /* ContentView.swift */,
+				12E4E7632B70571100FEAF57 /* SupportFiles */,
+				12E4E7622B70570800FEAF57 /* Models */,
+				12E4E76E2B706AE400FEAF57 /* Screens */,
+				12E4E7612B7056FF00FEAF57 /* Views */,
 				12E4E6EB2B6F0DF100FEAF57 /* Assets.xcassets */,
 				12E4E6ED2B6F0DF100FEAF57 /* TacticalExpense.entitlements */,
+				12E4E7772B7084EB00FEAF57 /* Previews */,
 				12E4E6EE2B6F0DF100FEAF57 /* Preview Content */,
 			);
 			path = TacticalExpense;
@@ -127,6 +154,55 @@
 				12E4E7052B6F0DF100FEAF57 /* TacticalExpenseUITestsLaunchTests.swift */,
 			);
 			path = TacticalExpenseUITests;
+			sourceTree = "<group>";
+		};
+		12E4E7612B7056FF00FEAF57 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				12E4E7712B7074BD00FEAF57 /* TransactionListView.swift */,
+				12E4E7732B70765300FEAF57 /* BudgetsStackView.swift */,
+				12E4E77E2B708EBE00FEAF57 /* EditTransactionView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		12E4E7622B70570800FEAF57 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				12E4E6E72B6F0DF000FEAF57 /* TacticalExpenseApp.swift */,
+				12E4E7642B70590500FEAF57 /* Color.swift */,
+				12E4E7682B7059EB00FEAF57 /* Transaction.swift */,
+				12E4E76A2B705C1B00FEAF57 /* Budget.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		12E4E7632B70571100FEAF57 /* SupportFiles */ = {
+			isa = PBXGroup;
+			children = (
+				12E4E76C2B70692F00FEAF57 /* HapticsManager.swift */,
+				12E4E77C2B708B2600FEAF57 /* View+Extension.swift */,
+			);
+			path = SupportFiles;
+			sourceTree = "<group>";
+		};
+		12E4E76E2B706AE400FEAF57 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				12E4E6E92B6F0DF000FEAF57 /* TransactionScreen.swift */,
+				12E4E76F2B70736700FEAF57 /* AddTransactionScreen.swift */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		12E4E7772B7084EB00FEAF57 /* Previews */ = {
+			isa = PBXGroup;
+			children = (
+				12E4E7752B707F8A00FEAF57 /* TransactionSamples.swift */,
+				12E4E7782B70851400FEAF57 /* PreviewContainer.swift */,
+				12E4E77A2B70856500FEAF57 /* BudgetSamples.swift */,
+			);
+			path = Previews;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,8 +335,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				12E4E6EA2B6F0DF000FEAF57 /* ContentView.swift in Sources */,
+				12E4E7792B70851400FEAF57 /* PreviewContainer.swift in Sources */,
+				12E4E7652B70590500FEAF57 /* Color.swift in Sources */,
+				12E4E77B2B70856500FEAF57 /* BudgetSamples.swift in Sources */,
+				12E4E7722B7074BD00FEAF57 /* TransactionListView.swift in Sources */,
+				12E4E7762B707F8A00FEAF57 /* TransactionSamples.swift in Sources */,
+				12E4E6EA2B6F0DF000FEAF57 /* TransactionScreen.swift in Sources */,
+				12E4E76D2B70692F00FEAF57 /* HapticsManager.swift in Sources */,
+				12E4E7742B70765300FEAF57 /* BudgetsStackView.swift in Sources */,
+				12E4E76B2B705C1B00FEAF57 /* Budget.swift in Sources */,
+				12E4E77F2B708EBE00FEAF57 /* EditTransactionView.swift in Sources */,
 				12E4E6E82B6F0DF000FEAF57 /* TacticalExpenseApp.swift in Sources */,
+				12E4E77D2B708B2600FEAF57 /* View+Extension.swift in Sources */,
+				12E4E7692B7059EB00FEAF57 /* Transaction.swift in Sources */,
+				12E4E7702B70736700FEAF57 /* AddTransactionScreen.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
